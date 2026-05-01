@@ -1,0 +1,29 @@
+{
+  "ALPHA_F": 0.15,
+  "v_F": 0.169,
+  "J": 0.15,
+  "ALPHA_EM_CODATA": 0.0072973525693,
+  "log_factor_lambda_e_l_P": 53.365746989286,
+  "candidates": {
+    "A_naive": {
+      "bare": 0.835868543250737,
+      "predicted": 0.015663015893294822
+    },
+    "B_Wilson": {
+      "bare": 0.5305164769729844,
+      "predicted_logscreen": 0.009941142153964298,
+      "predicted_oneloop": 0.13601460527752257
+    },
+    "C_alt": {
+      "bare": 0.01193662073189215,
+      "predicted_oneloop": 0.011205360629510077
+    }
+  },
+  "best_fit_Wilson_oneloop": {
+    "alpha_bare": 0.5305164769729844,
+    "alpha_predicted_at_m_e": 0.13601460527752257,
+    "alpha_inv_predicted": 7.352151616068083,
+    "ratio_to_CODATA": 18.63889732417983,
+    "log10_deviation": 1.2704202159477276
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "L": 80,
+  "target": 3.1591549430918953,
+  "target_shift": 0.15915494309189535,
+  "d_static_cubic": 2.8263696473306883,
+  "d_synchronous_A": 0.0,
+  "d_asynchronous_B_mean": 3.1017110676561335,
+  "d_asynchronous_B_std": 0.03989909391827766,
+  "d_asynchronous_B_seeds": []
+}

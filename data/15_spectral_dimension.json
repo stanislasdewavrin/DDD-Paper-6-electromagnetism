@@ -1,0 +1,28 @@
+{
+  "L": 50,
+  "n_walks": 5000,
+  "n_steps": 200,
+  "target_d_eff": 3.1591549430918953,
+  "results": [
+    {
+      "mode": "cubic_only",
+      "label": "Pure cubic",
+      "d_s": 2.814043170690195
+    },
+    {
+      "mode": "one_111",
+      "label": "Single direction (1,1,1)",
+      "d_s": 3.031031222729509
+    },
+    {
+      "mode": "pair_z",
+      "label": "Both +z diagonals",
+      "d_s": 2.776473713622
+    },
+    {
+      "mode": "all4",
+      "label": "All 4 diagonals",
+      "d_s": 2.924228936743324
+    }
+  ]
+}

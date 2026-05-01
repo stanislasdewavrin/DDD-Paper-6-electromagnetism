@@ -1,0 +1,56 @@
+{
+  "L": 64,
+  "target": 3.1591549430918953,
+  "target_shift": 0.15915494309189535,
+  "d_cubic": 2.8013724608393384,
+  "results": [
+    {
+      "name": "pure cubic (control)",
+      "d_BFS_mean": 2.8013724608393384,
+      "d_BFS_std": 0.0,
+      "shift_over_cubic": 0.0,
+      "delta_to_target_shift": -0.15915494309189535,
+      "L": 64
+    },
+    {
+      "name": "fixed (1,1,1) diagonal",
+      "d_BFS_mean": 2.7738436657014733,
+      "d_BFS_std": 0.0,
+      "shift_over_cubic": -0.027528795137865103,
+      "delta_to_target_shift": -0.18668373822976045,
+      "L": 64
+    },
+    {
+      "name": "(a) tiling 2x2x2 chiral",
+      "d_BFS_mean": 2.961900093374855,
+      "d_BFS_std": 0.008983231411852482,
+      "shift_over_cubic": 0.1605276325355165,
+      "delta_to_target_shift": 0.00137268944362115,
+      "L": 64
+    },
+    {
+      "name": "(b) Bloch-twist (i+j+k)%4",
+      "d_BFS_mean": 3.028822793021168,
+      "d_BFS_std": 0.04181354438678588,
+      "shift_over_cubic": 0.22745033218182975,
+      "delta_to_target_shift": 0.0682953890899344,
+      "L": 64
+    },
+    {
+      "name": "(c) all 4 diagonals/node",
+      "d_BFS_mean": 2.9205290377578934,
+      "d_BFS_std": 0.0,
+      "shift_over_cubic": 0.11915657691855497,
+      "delta_to_target_shift": -0.03999836617334038,
+      "L": 64
+    },
+    {
+      "name": "Poisson(mu=1) reference",
+      "d_BFS_mean": 3.1391481097069085,
+      "d_BFS_std": 0.07184069536136255,
+      "shift_over_cubic": 0.33777564886757006,
+      "delta_to_target_shift": 0.1786207057756747,
+      "L": 64
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "L": 60,
+  "target_d_eff": 3.1591549430918953,
+  "results": [
+    {
+      "mode": "cubic_only",
+      "label": "Pure cubic (no diagonal)",
+      "diag_per_cube": 0,
+      "d_H": 2.794759880834655,
+      "delta_from_target": -0.3643950622572403
+    },
+    {
+      "mode": "one_dir_111",
+      "label": "ONE direction (1,1,1)",
+      "diag_per_cube": 1,
+      "d_H": 2.7637483963228653,
+      "delta_from_target": -0.39540654676903
+    },
+    {
+      "mode": "pair_chiral",
+      "label": "PAIR (1,1,1) and (1,1,-1)",
+      "diag_per_cube": 2,
+      "d_H": 2.8321949261232238,
+      "delta_from_target": -0.3269600169686715
+    },
+    {
+      "mode": "two_z_positive",
+      "label": "Both +z diagonals (1,1,1) and (1,-1,1)",
+      "diag_per_cube": 2,
+      "d_H": 2.8321949261232238,
+      "delta_from_target": -0.3269600169686715
+    },
+    {
+      "mode": "single_axis_z",
+      "label": "Both +z+y diagonals (1,1,1) and (-1,1,1)",
+      "diag_per_cube": 2,
+      "d_H": 2.8321949261232238,
+      "delta_from_target": -0.3269600169686715
+    },
+    {
+      "mode": "every_other_111",
+      "label": "(1,1,1) on alternate cubes (checkerboard)",
+      "diag_per_cube": 0.5,
+      "d_H": 2.7790904031535715,
+      "delta_from_target": -0.3800645399383238
+    },
+    {
+      "mode": "all4",
+      "label": "ALL 4 diagonals",
+      "diag_per_cube": 4,
+      "d_H": 2.9151992929578516,
+      "delta_from_target": -0.24395565013404363
+    }
+  ]
+}

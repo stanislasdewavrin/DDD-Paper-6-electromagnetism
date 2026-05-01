@@ -1,0 +1,71 @@
+{
+  "L": 32,
+  "target": 3.1591549430918953,
+  "target_shift": 0.15915494309189535,
+  "d_cubic": 2.7053260214672368,
+  "results": [
+    {
+      "name": "pure cubic (control)",
+      "d_BFS": 2.7053260214672368,
+      "sigma": 0.0,
+      "shift": 0.0,
+      "delta_to_target_shift": -0.15915494309189535
+    },
+    {
+      "name": "Poisson(1) body-diag (paper)",
+      "d_BFS": 3.0535140506974137,
+      "sigma": 0.054229289206027,
+      "shift": 0.3481880292301769,
+      "delta_to_target_shift": 0.18903308613828154
+    },
+    {
+      "name": "(NW) Poisson(1) random global",
+      "d_BFS": 4.2301670663288045,
+      "sigma": 0.13626951432175563,
+      "shift": 1.5248410448615677,
+      "delta_to_target_shift": 1.3656861017696724
+    },
+    {
+      "name": "(NW) Poisson(0.5) random global",
+      "d_BFS": 4.078573873145267,
+      "sigma": 0.07223274847791926,
+      "shift": 1.37324785167803,
+      "delta_to_target_shift": 1.2140929085861347
+    },
+    {
+      "name": "(NW) Poisson(0.1) random global",
+      "d_BFS": 3.2783409939613537,
+      "sigma": 0.16656656068632975,
+      "shift": 0.5730149724941169,
+      "delta_to_target_shift": 0.41386002940222155
+    },
+    {
+      "name": "(NW) Poisson(0.01) random global",
+      "d_BFS": 2.7732481127207067,
+      "sigma": 0.09409666563509475,
+      "shift": 0.06792209125346993,
+      "delta_to_target_shift": -0.09123285183842542
+    },
+    {
+      "name": "(FixedR) R=5, mu=1",
+      "d_BFS": 4.576664053844518,
+      "sigma": 0.07500784610581791,
+      "shift": 1.8713380323772815,
+      "delta_to_target_shift": 1.7121830892853862
+    },
+    {
+      "name": "(FixedR) R=10, mu=1",
+      "d_BFS": 4.395834500429793,
+      "sigma": 0.2788256320404314,
+      "shift": 1.6905084789625566,
+      "delta_to_target_shift": 1.5313535358706614
+    },
+    {
+      "name": "(FixedR) R=15, mu=1",
+      "d_BFS": 4.3445080263343785,
+      "sigma": 0.08885839754036082,
+      "shift": 1.6391820048671417,
+      "delta_to_target_shift": 1.4800270617752465
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "alpha_CODATA": 0.0072973525693,
+  "alpha_UV_DDD_Chern": 0.007957747154594767,
+  "alpha_UV_QED_back_propagated": 0.004454122054671987,
+  "match_pct": 78.66028494319731,
+  "M_UV_exact_match": 0.41465539542191915,
+  "M_Planck": 1.22e+19,
+  "ratio_M_UV_over_Planck": 3.3988147165731077e-20,
+  "b0_SM_above_top": 10.666666666666666
+}
