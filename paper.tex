@@ -23,6 +23,13 @@ and a Candidate Fixed-Point Formula for $\alpha_{\rm EM}$}}
 
 \begin{abstract}
 \noindent
+The fine-structure constant $\alpha_{\rm EM} \simeq 1/137.036$
+is one of the great unexplained numbers of the Standard Model:
+measured to twelve significant digits, but inserted by hand
+rather than derived. This paper asks whether $\alpha_{\rm EM}$
+can arise as a self-consistent geometric quantity of a discrete
+substrate, and proposes a candidate fixed-point construction.
+
 We extend the Floquet two-step substrate of Paper~III with an
 oriented sector: link variables $\psi_{ij}$ (phases on edges)
 and node orientations $\alpha_i$, governed by a local energy
@@ -55,16 +62,19 @@ dimension $d_{\rm eff} = 3 + \varepsilon$, has a unique stable
 fixed point. The exact value of $\varepsilon$ is not yet fixed
 analytically; the numerical BFS exponent is close to
 $3 + \varepsilon$ with $\varepsilon \sim 0.10\text{--}0.17$
-depending on finite-size extrapolation and lattice cutoff. Three
-candidate structural values are considered :
-$\varepsilon = 1/(3\pi) \approx 0.1061$ (favoured by the L=400
-BFS measurement at $0.07\sigma$),
-$\varepsilon = 1/(2\pi) \approx 0.15915$ (small-world Newman--Watts
-3D), or $\varepsilon = 1/6 \approx 0.16667$ (combinatorial:
-$3$ axes $\times\,2$ directions). They yield $\alpha_{\rm EM}$
-matches at $+0.34$, $-0.38$, and $-0.48$~ppm respectively. The
-fixed-point formula is therefore conditional on the selected
-structural identification of $\varepsilon$; resolving this
+depending on finite-size extrapolation and lattice cutoff. Three structural candidates of the bulk BFS expansion type are
+evaluated, $\varepsilon \in \{1/(3\pi),\,1/(2\pi),\,1/6\}$,
+yielding matches at $+0.34$, $-0.38$, and $-0.48$~ppm
+respectively. We also discuss separately a \emph{loop-effective}
+candidate $\varepsilon_{\rm loop} = 1/(\pi\sqrt{6}) =
+(1/(2\pi))\,\sqrt{2/3} \approx 0.12995$, motivated by the RMS
+transverse projection of the body-diagonal twist onto the
+two-dimensional plane perpendicular to the loop. It gives a
+near-exact match at $+0.014$~ppm, but this should \emph{not} be
+read as a first-principles result until the Wilson-loop
+self-energy dimension is measured or derived independently of
+CODATA. The fixed-point formula is therefore conditional on the
+selected structural identification of $\varepsilon$; resolving this
 requires either higher-precision BFS extrapolation
 ($L \gtrsim 800$) or analytical derivation of the small-world
 correction.
@@ -136,19 +146,32 @@ identifications are: $8\pi^2 = 4 \times \mathrm{Vol}(S^3)$
 (four body diagonals $\times$ spinor-sector $S^3$ phase space),
 $\sqrt{3}$ (Euclidean body-diagonal length), and
 $V_{d_{\rm eff}} = \pi^{d_{\rm eff}/2}/\Gamma(d_{\rm eff}/2+1)$
-with $d_{\rm eff} = 3 + \varepsilon$ admitting three structurally
-plausible candidates, $\varepsilon = 1/(3\pi)$ (favoured by the
-high-precision L=400 BFS measurement at $0.07\sigma$),
-$\varepsilon = 1/(2\pi)$ (small-world Newman--Watts in 3D), or
-$\varepsilon = 1/6$ (combinatorial: $3$ axes $\times\,2$
-directions), yielding $\alpha_{\rm EM}$ matches at $+0.34$,
-$-0.38$ and $-0.48$~ppm respectively. None of these
-is derived analytically from first principles in this paper;
-each is a plausible structural assignment supported by
-additional arguments in \S\ref{sec:alpha-self-consistent} and
-\S\ref{sec:d-eff-emergence}. A closed derivation of
-$\alpha_{\rm EM}$ requires further analytical work
-(\S\ref{sec:not}).
+with $d_{\rm eff} = 3 + \varepsilon$. We consider two
+\emph{distinct} categories of candidate.
+
+\textit{Category A --- bulk BFS candidates.} Three structurally
+plausible values $\varepsilon \in \{1/(3\pi),\,1/(2\pi),\,1/6\}$
+test the dimension of statistical expansion of the substrate
+graph as a whole, $d_{\rm BFS}$. They yield matches at $+0.34$,
+$-0.38$, and $-0.48$~ppm respectively, with $\varepsilon =
+1/(3\pi)$ favoured by the high-precision L=400 BFS measurement
+at $0.07\sigma$.
+
+\textit{Category B --- loop-effective candidate.} A separate
+hypothesis $\varepsilon_{\rm loop} = 1/(\pi\sqrt{6})$
+(Sec.~\ref{sec:loop-eff}) identifies the relevant dimension as
+that of the self-energy volume around the body-diagonal Wilson
+loop, $d_{\rm loop}$, which need not coincide with $d_{\rm
+BFS}$. It yields $+0.014$~ppm, but this is meaningful only if
+$d_{\rm loop}$ is selected by an independent calculation
+(\S\ref{sec:loop-eff}).
+
+None of these is derived analytically from first principles in
+this paper; each is a structural hypothesis supported by
+additional arguments in
+\S\ref{sec:alpha-self-consistent} and \S\ref{sec:d-eff-emergence}.
+A closed derivation of $\alpha_{\rm EM}$ requires further
+analytical work (\S\ref{sec:not}).
 
 \item \textbf{The effective dimension is statistical, not geometric.}
 The BFS-expansion exponent of a cubic substrate decorated by a
@@ -184,15 +207,81 @@ rather than a first-principles prediction. We do not derive the
 structural form of $E_{\rm orient}$ from a deeper principle:
 the compact U(1) XY-Wilson form is the minimal local
 U(1)-symmetric energy. We do not compute the two-loop
-correction $O(\alpha^3)$ to the back-reaction; the $0.38$~ppm
-residual is consistent with this order but its sign and
+correction $O(\alpha^3)$ to the back-reaction; the $0.38$~ppm residual (for $\varepsilon = 1/(2\pi)$) is consistent with this order but its sign and
 magnitude require independent calculation. Non-abelian
 extensions, the strong and weak nuclear sectors, and the
 photon mass beyond gauge invariance are outside the scope of
 this paper.
 
+\textbf{On the loop-effective candidate.}
+The loop-effective candidate $\varepsilon_{\rm loop} = 1/(\pi\sqrt{6})$
+is \emph{not} a fitted derivation of $\alpha_{\rm EM}$. It is a
+geometrically motivated hypothesis for the Wilson-loop
+self-energy dimension $d_{\rm loop}$, distinct from the bulk BFS
+expansion dimension $d_{\rm BFS}$. Its near-exact agreement with
+CODATA at $+0.014$~ppm becomes a falsifiable prediction only if
+an independent calculation or simulation of the Wilson-loop
+self-energy selects this value \emph{without reference to
+$\alpha_{\rm EM}$}. Until then it is at best a suggestive
+coincidence, at worst an algebraic form retro-fitted to CODATA.
+We list this independent verification as the principal open
+task of the framework (\S\ref{sec:open}).
+
+\subsection*{Motivation and significance}
+\addcontentsline{toc}{subsection}{Motivation and significance}
+
+One of the long-standing puzzles of fundamental physics is the
+numerical value of the fine-structure constant,
+\begin{equation*}
+\alpha_{\rm EM} \;\simeq\; 1/137.036.
+\end{equation*}
+In the Standard Model this dimensionless coupling is measured
+experimentally and inserted as an input parameter. Its value
+controls the strength of electromagnetism, atomic spectra,
+chemistry, and the scale of electromagnetic radiative
+corrections, but it is not derived from any deeper structure.
+
+The present paper addresses this puzzle from the DDD
+perspective. Instead of treating $\alpha_{\rm EM}$ as an
+external constant, we ask whether it can arise as a
+self-consistent geometric quantity of the discrete substrate.
+The central proposal is that the elementary electromagnetic
+Wilson loop is the body diagonal of the unit cube, and that
+this loop back-reacts on its own effective length. The observed
+coupling then appears as a fixed point of this back-reaction.
+
+This paper also explains why Maxwell-like dynamics is natural in
+the same substrate. Link phases define plaquette fluxes; the
+homogeneous Maxwell equations follow from the discrete Bianchi
+identity (``boundary of a boundary is empty''), while the
+inhomogeneous equations follow from the variation of the
+compact U(1) energy. Electric-charge sectors are labelled by
+integer winding of the orientation field, so charge
+quantisation is topological rather than postulated.
+
+The result is not yet a closed derivation of $\alpha_{\rm EM}$.
+The formula depends on structural identifications, in
+particular the effective dimension $d_{\rm eff} = 3 +
+\varepsilon$ and the one-loop coefficient $V_{d_{\rm eff}}$.
+Until these are derived analytically, the sub-ppm agreement
+should be read as a suggestive consistency check, not a
+first-principles prediction. Nevertheless, the paper turns the
+mystery of $1/137$ into a concrete set of geometrical and
+lattice-gauge calculations: the value of $\alpha_{\rm EM}$
+becomes a question about the body-diagonal Wilson loop of the
+substrate's unit cube, rather than a free parameter.
+
 \section{The picture, in plain words}
 \label{sec:picture}
+
+\textbf{The mystery.} The strength of electromagnetism is set
+by the fine-structure constant, $\alpha_{\rm EM} \simeq
+1/137.036$. This number is dimensionless, extremely well
+measured, and central to atomic physics and chemistry, but in
+the Standard Model it is not predicted: it is fitted to data
+and inserted by hand. Paper~VI asks whether this number can be
+understood as a geometric fixed point of a discrete substrate
+--- whether $1/137$ is, in some sense, a property of the cube.
 
 Imagine a vast cubic grid of nodes, like a 3-dimensional jungle
 gym. At each node we attach three things: a dial reading the
@@ -494,7 +583,7 @@ $d_{\rm eff}$:
 V_{d_{\rm eff}}
 = \frac{\pi^{d_{\rm eff}/2}}{\Gamma(d_{\rm eff}/2 + 1)},
 \qquad
-d_{\rm eff} = 3 + \frac{1}{2\pi},
+d_{\rm eff} = 3 + \varepsilon,
 \]
 giving
 \[
@@ -565,12 +654,20 @@ $-0.48$~ppm\\
 \caption{Approximations for the self-consistent $\alpha_{\rm EM}$.
 The leading tree-level alone reaches $66$~ppm, the one-loop with
 the Euclidean unit-ball volume reaches $1.8$~ppm. With the
-fractional volume $V_{d_{\rm eff}}$, three structurally
-plausible candidates for $\varepsilon = d_{\rm eff} - 3$ give
-matches all within $|{\rm ppm}| < 0.5$:
-$\varepsilon = 1/(3\pi)$ (favoured by L=400 BFS measurement),
-$\varepsilon = 1/(2\pi)$ (small-world Newman--Watts), and
-$\varepsilon = 1/6$ (combinatorial). The use of
+fractional volume $V_{d_{\rm eff}}$, the first
+three fractional candidates $\varepsilon \in
+\{1/(3\pi),\,1/(2\pi),\,1/6\}$ are \emph{bulk BFS candidates}:
+they identify $\varepsilon$ with the small-world correction to
+the substrate's global expansion dimension $d_{\rm BFS}$, and all
+give matches within $|{\rm ppm}| < 0.5$. The loop-effective candidate $\varepsilon_{\rm loop} =
+1/(\pi\sqrt{6})$ is \emph{not} included in this table because
+it identifies $\varepsilon$ with the Wilson-loop self-energy
+volume dimension $d_{\rm loop}$, which need not coincide with
+$d_{\rm BFS}$; it is discussed separately in
+Sec.~\ref{sec:loop-eff}. There:
+it identifies $\varepsilon$ with the Wilson-loop self-energy
+volume dimension $d_{\rm loop}$, which need not coincide with
+$d_{\rm BFS}$. The use of
 $V_{d_{\rm eff}}$ rather than $V_3$ is structurally required
 because the body diagonal lives in the substrate, whose
 effective dimension is fractional
@@ -589,10 +686,17 @@ one-loop) vs the CODATA reference (red dashed). \emph{Right:}
 absolute deviation in ppm on log scale. Each correction reduces
 the deviation by $\sim 40\times$, consistent with the
 $\alpha_{\rm EM}\,V_{\rm geom} \sim 0.03$ perturbative
-suppression per order. The fractional point shown corresponds to
-$\varepsilon = 1/(2\pi)$; the alternative candidates
-$\varepsilon \in \{1/(3\pi), 1/6\}$ lie within the same sub-ppm
-band and are listed in Table~\ref{tab:alpha-three-levels}.}
+suppression per order. \emph{The fractional point shown
+corresponds to the bulk BFS candidate $\varepsilon = 1/(2\pi)$};
+the two other BFS candidates $\varepsilon \in \{1/(3\pi),\,1/6\}$
+lie within the same sub-ppm band and are listed in
+Table~\ref{tab:alpha-three-levels}. The loop-effective
+candidate $\varepsilon_{\rm loop} = 1/(\pi\sqrt{6})$ lies
+closer to CODATA but is not plotted here because it belongs to
+a different interpretation of $d_{\rm eff}$ (it identifies
+$\varepsilon$ with the Wilson-loop self-energy dimension
+$d_{\rm loop}$, distinct from the bulk BFS dimension); see
+Sec.~\ref{sec:loop-eff}.}
 \label{fig:convergence}
 \end{figure}
 
@@ -610,7 +714,7 @@ $0.38$~ppm is order $(\alpha_{\rm EM}^*)^3 \cdot O(1)$, the
 expected magnitude of two-loop corrections beyond the
 truncation \eqref{eq:back-reaction}.
 
-\section{Why $d_{\rm eff} \approx 3 + 0.16$: statistical small-world}
+\section{Effective dimension: bulk BFS versus Wilson-loop self-energy}
 \label{sec:d-eff-emergence}
 
 The fractional dimension $d_{\rm eff} = 3 + \varepsilon$, with
@@ -658,8 +762,12 @@ $\sim 1\text{--}2\%$ for $\mu = 1$ across multiple shell choices. Data:
 \includegraphics[width=0.85\textwidth]{figures/fig_d_BFS_emergence.pdf}
 \caption{BFS dimension $d_{\rm BFS}$ as a function of the mean
 shortcut count per node $\mu$, for two shell topologies. Both
-peak near $\mu = 1$ at the target value
-$d_{\rm eff} = 3 + 1/(2\pi)$ (red dashed). The pure cubic value
+peak near $\mu = 1$. The red dashed line shows the
+$\varepsilon = 1/(2\pi)$ candidate used in earlier finite-size
+extractions; high-resolution L=400 measurements favour
+$\varepsilon = 1/(3\pi)$. The loop-effective candidate
+$\varepsilon_{\rm loop} = 1/(\pi\sqrt{6})$ is not a BFS dimension
+and is therefore not shown (red dashed). The pure cubic value
 $d = 3$ (grey dotted) is the floor; the small-world enhancement
 saturates near $\mu = 1$ before declining at higher $\mu$ from
 percolation effects.}
@@ -713,12 +821,97 @@ suggestive of a deeper structural identity, which we identify
 as one of the open problems of the framework
 (Sec.~\ref{sec:open}).
 
+\subsection{Candidate loop-effective dimension (separate hypothesis)}
+\label{sec:loop-eff}
+
+Distinct from the bulk BFS candidates above, a fourth value is
+suggested by the geometry of the body-diagonal Wilson loop
+itself. The twist carried by the diagonal is
+$\lambda = 1/(2\pi)$, but the self-energy volume around a
+\emph{one-dimensional} diagonal loop embedded in
+three-dimensional substrate samples only the two transverse
+directions relative to the loop direction.
+
+\textbf{Derivation of the projection factor $\sqrt{2/3}$.} A
+body diagonal of the unit cube points in the direction
+\begin{equation*}
+\hat{n}_{\rm diag} \;=\; \frac{1}{\sqrt{3}}(1,1,1).
+\end{equation*}
+Decompose any cubic-axis displacement $\hat{e}_k$ ($k = x, y, z$)
+into longitudinal (along $\hat{n}_{\rm diag}$) and transverse
+(perpendicular to $\hat{n}_{\rm diag}$) parts:
+\begin{equation*}
+\hat{e}_k \;=\; \hat{e}_k^{\,\parallel} + \hat{e}_k^{\,\perp},
+\qquad
+\hat{e}_k^{\,\parallel} = (\hat{e}_k \cdot \hat{n}_{\rm diag})
+\,\hat{n}_{\rm diag}
+= \tfrac{1}{\sqrt{3}}\,\hat{n}_{\rm diag},
+\qquad
+|\hat{e}_k^{\,\perp}|^2 = 1 - \tfrac{1}{3} = \tfrac{2}{3}.
+\end{equation*}
+The shortcut density that drives the small-world correction
+$\varepsilon$ is built from the three cubic axes; only the
+transverse component $\hat{e}_k^{\,\perp}$ contributes to the
+loop's self-energy volume around the diagonal. Averaging
+$|\hat{e}_k^{\,\perp}|^2$ over the three axes (which are
+equivalent under cyclic rotation):
+\begin{equation*}
+\Pi_\perp^{\,2}
+\;=\; \frac{1}{3}\sum_{k=x,y,z} |\hat{e}_k^{\,\perp}|^2
+\;=\; \frac{2}{3},
+\qquad
+\boxed{\;\Pi_\perp \;=\; \sqrt{\tfrac{2}{3}}.\;}
+\end{equation*}
+Equivalently: of the three independent unit-vector axes of the
+ambient cube, the diagonal absorbs $1/3$ of the variance into the
+longitudinal direction, leaving $2/3$ accessible to the transverse
+self-energy volume.
+
+\textbf{Loop-effective correction.} Multiplying the bare
+small-world twist $\lambda = 1/(2\pi)$ by the transverse
+projection factor $\Pi_\perp$ gives a
+\begin{equation}
+\boxed{\;
+\varepsilon_{\rm loop}
+\;=\; \frac{1}{2\pi}\sqrt{\frac{2}{3}}
+\;=\; \frac{1}{\pi\sqrt{6}}
+\;\simeq\; 0.12995,
+\;}
+\label{eq:eps-loop}
+\end{equation}
+hence $d_{\rm loop} \simeq 3.130$. Inserting this into the
+fixed-point formula \eqref{eq:alpha_EM_self_consistent} yields
+$1/\alpha_{\rm EM}^* \simeq 137.0360010$, matching CODATA at
+$+0.014$~ppm.
+
+\textbf{The crucial distinction.} $d_{\rm BFS}$ measures the
+global expansion dimension of the substrate graph; $d_{\rm
+loop}$ would measure the effective volume of field self-energy
+around the body-diagonal Wilson loop. These two dimensions can
+differ. The $0.014$~ppm match is meaningful only if
+$d_{\rm loop}$ is selected by an independent calculation or
+simulation (Wilson-loop self-energy in a bath of shortcuts,
+rather than global BFS expansion). Until then, the near-exact
+agreement is at best a suggestive coincidence, at worst an
+algebraic form retro-fitted to CODATA.
+
+\textbf{Suggestive observation.} The form $1/(\pi\sqrt{6})$ is
+notable because the $\sqrt{6}$ is the linear size of the
+\emph{cube-surface area} (6), the same combinatorial $6$ that
+appears in the gravitational Wilson surface of Paper~VII's
+companion construction. The loop-effective correction therefore
+reads as $\varepsilon_{\rm loop} = \lambda_{\rm twist}/\sqrt{\rm
+cube\text{-}surface\ area}$, identifying a single combinatorial
+relation between three sectors of the framework. We list the
+independent verification of $d_{\rm loop}$ as the principal open
+task of the framework (Sec.~\ref{sec:open}).
+
 \section{What this paper does not do}
 \label{sec:not}
 
 \paragraph{The fixed-point formula is not a closed derivation.}
 We do not present a closed first-principles derivation of
-$\alpha_{\rm EM}$. The agreement at $-0.38$~ppm between
+$\alpha_{\rm EM}$. The agreement at $-0.38$~ppm for the bulk-BFS candidate $\varepsilon = 1/(2\pi)$ between
 \eqref{eq:alpha_EM_self_consistent} and CODATA is conditional
 on three structural identifications, each of which is presented
 in this paper as plausible but not as analytically derived:
@@ -837,7 +1030,11 @@ the open problems below are closed.
 exact small-world correction $\varepsilon$ for a cubic lattice
 with Poisson($\mu = 1$) body-diagonal shortcuts, and of whether
 the Wilson-loop-relevant value is $1/(3\pi)$, $1/(2\pi)$, $1/6$,
-or another structural value.
+or another structural value. The Wilson-loop self-energy
+dimension $d_{\rm loop}$ should also be measured independently
+of the bulk BFS expansion, to test whether it instead selects
+$\varepsilon_{\rm loop} = 1/(\pi\sqrt{6})$
+(Sec.~\ref{sec:loop-eff}).
 \item Follow-up calculation (b): an explicit one-loop
 Wilson-loop self-energy in compact U(1) with diagonal-twist
 topology, yielding the coefficient $V_{d_{\rm eff}}$ from the
@@ -940,125 +1137,12 @@ substrate scale enters.
 \subsection{Implication: a predicted lattice mass scale}
 
 In standard physics, the dimensionless gravitational coupling
-at mass scale $m$ is $\alpha_G(m) = G m^2/\hbar c = (m/M_P)^2$,
-while $\alpha_{\rm EM}(0) = 1/137.036$. Imposing
-\eqref{eq:grav-em-ratio} fixes the mass scale at which the
-substrate's natural couplings appear:
-\begin{equation}
-\frac{1}{\sqrt{2}}
-\;=\; \frac{(m_{\rm lat}/M_P)^2}{1/137.036}
-\;\;\Longrightarrow\;\;
-\frac{m_{\rm lat}}{M_P}
-\;=\; \sqrt{\frac{1}{137.036\,\sqrt{2}}}
-\;\approx\; 0.0719,
-\end{equation}
-so $m_{\rm lat} \approx 0.072\,M_P$, i.e.\ the substrate's
-characteristic mass scale is $\sim 7\%$ of the Planck mass and
-its characteristic length scale
-\[
-\ell_{\rm lat}
-\;=\;\hbar/(m_{\rm lat} c)
-\;\approx\; 13.9\,\ell_P
-\;\approx\; 2.25 \times 10^{-34}\,\text{m}.
-\]
-The DDD substrate is therefore not at the Planck length itself,
-but coarser by a factor $\sim 14$. This is a speculative structural consequence of the companion construction, 
-not a calibration.
-
-\subsection{Photon dispersion and Lorentz-invariance window}
-
-A finite lattice spacing $\ell_{\rm lat}$ implies a
-trans-Planckian cutoff and a small dispersion deviation for the
-photon at high energy. The leading-order modification of the
-group velocity is
-\[
-\frac{\Delta v_g}{c}
-\;\sim\;
--\frac{1}{6}\!\left(\frac{E}{E_{\rm lat}}\right)^{\!2},
-\qquad
-E_{\rm lat} \;\equiv\; m_{\rm lat}c^2 \;\approx\; 8.8\times10^{17}\,\text{GeV}.
-\]
-At experimentally accessible energies (TeV gamma-ray bursts,
-PeV cosmic rays) this is at most $10^{-13}$ to $10^{-7}$, well
-below current Lorentz-invariance-violation limits (which
-constrain the quadratic scale to $\gtrsim 10^{11}$~GeV). The
-maximum photon energy in the substrate is bounded by
-$E_{\gamma,\max} \approx \pi c\hbar/\ell_{\rm lat}
-\approx 0.23\,E_P$. None of these is in tension with present
-observations; together they constitute a speculative target
-testable at trans-Planckian scales.
-
-\subsection{What this companion result does not do}
-
-We do not derive Newton's $G$ in physical units. The companion
-construction yields a dimensionless coupling $\alpha_G^{\rm lat}$
-at the substrate's natural mass scale, and the structural ratio
-\eqref{eq:grav-em-ratio} fixes that scale relative to the Planck
-mass. To obtain $G$ in SI units one needs an independent
-calibration of the lattice spacing in metres (or equivalently of
-the Planck mass in kilograms), which is the main result of
-Paper~II and is not duplicated here. We also do not address how
-specific particle masses are determined; the hierarchy between
-$m_{\rm lat}$ and the masses of the Standard Model fermions is a
-separate problem that lies beyond the scope of this paper.
+at mass scale $m$ is $\alpha_G(m)=(m/M_P)^2$, while
+$\alpha_{\rm EM}(0)=1/137.036$. Imposing the structural ratio
+gives $m_{\rm lat}\approx 0.072\,M_P$ and
+$\ell_{\rm lat}\approx 14\,\ell_P$.
 
 \bibliographystyle{unsrt}
 \bibliography{references}
 
 \end{document}
-d; the
-hierarchy between $m_{\rm lat}$ and the masses of the Standard
-Model fermions is a separate problem that lies beyond the scope
-of this paper.
-
-\bibliographystyle{unsrt}
-\bibliography{references}
-
-\end{document}
-trsim 10^{11}$~GeV). The
-maximum photon energy in the substrate is bounded by
-$E_{\gamma,\max} \approx \pi c\hbar/\ell_{\rm lat}
-\approx 0.23\,E_P$. None of these is in tension with present
-observations; together they constitute a speculative target
-testable at trans-Planckian scales.
-
-\subsection{What this companion result does not do}
-
-We do not derive Newton's $G$ in physical units. The companion
-construction yields a dimensionless coupling $\alpha_G^{\rm lat}$
-at the substrate's natural mass scale, and the structural ratio
-\eqref{eq:grav-em-ratio} fixes that scale relative to the Planck
-mass. To obtain $G$ in SI units one needs an independent
-calibration of the lattice spacing in metres (or equivalently of
-the Planck mass in kilograms), which is the main result of
-Paper~II and is not duplicated here. We also do not address how
-specific particle masses are determined; the hierarchy between
-$m_{\rm lat}$ and the masses of the Standard Model fermions is a
-separate problem that lies beyond the scope of this paper.
-
-\bibliographystyle{unsrt}
-\bibliography{references}
-
-\end{document}
- is not duplicated here. We also do not address how
-specific particle masses are determined; the hierarchy between
-$m_{\rm lat}$ and the masses of the Standard Model fermions is a
-separate problem that lies beyond the scope of this paper.
-
-\bibliographystyle{unsrt}
-\bibliography{references}
-
-\end{document}
-pe of this paper.
-
-\bibliographystyle{unsrt}
-\bibliography{references}
-
-\end{document}
- of this paper.
-
-\bibliographystyle{unsrt}
-\bibliography{references}
-
-\end{document}
-t}
