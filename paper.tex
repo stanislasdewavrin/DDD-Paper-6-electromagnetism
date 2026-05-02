@@ -91,7 +91,7 @@ small-world correction to $d_{\rm BFS}$ and the explicit
 one-loop Wilson-loop self-energy on the diagonal-twist lattice.
 \end{abstract}
 
-\section{What this paper claims}
+\section{Main claims and scope}
 \label{sec:claims}
 
 \begin{enumerate}
@@ -190,7 +190,7 @@ axion-vector winding per cube, the topological signature of
 DDD's Weyl semimetal structure.
 \end{enumerate}
 
-\textbf{What this paper does not claim.}
+\textbf{Limitations and scope.}
 We do not present a closed derivation of $\alpha_{\rm EM}$. The
 fixed-point formula \eqref{eq:alpha_EM_self_consistent} becomes
 a derivation only if two further analytic results are
@@ -271,7 +271,7 @@ lattice-gauge calculations: the value of $\alpha_{\rm EM}$
 becomes a question about the body-diagonal Wilson loop of the
 substrate's unit cube, rather than a free parameter.
 
-\section{The picture, in plain words}
+\section{Physical picture in plain words}
 \label{sec:picture}
 
 \textbf{The mystery.} The strength of electromagnetism is set
@@ -659,18 +659,16 @@ three fractional candidates $\varepsilon \in
 \{1/(3\pi),\,1/(2\pi),\,1/6\}$ are \emph{bulk BFS candidates}:
 they identify $\varepsilon$ with the small-world correction to
 the substrate's global expansion dimension $d_{\rm BFS}$, and all
-give matches within $|{\rm ppm}| < 0.5$. The loop-effective candidate $\varepsilon_{\rm loop} =
-1/(\pi\sqrt{6})$ is \emph{not} included in this table because
-it identifies $\varepsilon$ with the Wilson-loop self-energy
-volume dimension $d_{\rm loop}$, which need not coincide with
-$d_{\rm BFS}$; it is discussed separately in
-Sec.~\ref{sec:loop-eff}. There:
-it identifies $\varepsilon$ with the Wilson-loop self-energy
-volume dimension $d_{\rm loop}$, which need not coincide with
-$d_{\rm BFS}$. The use of
-$V_{d_{\rm eff}}$ rather than $V_3$ is structurally required
-because the body diagonal lives in the substrate, whose
-effective dimension is fractional
+give matches within $|{\rm ppm}| < 0.5$. The loop-effective
+candidate $\varepsilon_{\rm loop} = 1/(\pi\sqrt{6})$ is
+\emph{not} included in this table because it belongs to a
+different interpretation of $d_{\rm eff}$: it identifies
+$\varepsilon$ with the Wilson-loop self-energy dimension
+$d_{\rm loop}$, not the bulk BFS dimension $d_{\rm BFS}$. It
+is discussed separately in Sec.~\ref{sec:loop-eff}. The use
+of $V_{d_{\rm eff}}$ rather than $V_3$ is structurally
+required because the body diagonal lives in the substrate,
+whose effective dimension is fractional
 (Sec.~\ref{sec:d-eff-emergence}).}
 \label{tab:alpha-three-levels}
 \end{table}
@@ -884,6 +882,25 @@ fixed-point formula \eqref{eq:alpha_EM_self_consistent} yields
 $1/\alpha_{\rm EM}^* \simeq 137.0360010$, matching CODATA at
 $+0.014$~ppm.
 
+\begin{table}[h]
+\centering
+\begin{tabular}{lccc}
+\toprule
+candidate & dimension type & $\varepsilon$ & ppm match\\
+\midrule
+loop-effective & $d_{\rm loop}$ & $1/(\pi\sqrt{6})$ & $+0.014$\\
+\bottomrule
+\end{tabular}
+\caption{Loop-effective candidate. Listed separately from the
+bulk-BFS candidates of Table~\ref{tab:alpha-three-levels}
+because it identifies $\varepsilon$ with the Wilson-loop
+self-energy dimension $d_{\rm loop}$, not the substrate's
+bulk BFS expansion dimension $d_{\rm BFS}$. Its near-exact
+match becomes meaningful only if $d_{\rm loop}$ is selected
+by an independent calculation.}
+\label{tab:loop-eff}
+\end{table}
+
 \textbf{The crucial distinction.} $d_{\rm BFS}$ measures the
 global expansion dimension of the substrate graph; $d_{\rm
 loop}$ would measure the effective volume of field self-energy
@@ -906,7 +923,7 @@ relation between three sectors of the framework. We list the
 independent verification of $d_{\rm loop}$ as the principal open
 task of the framework (Sec.~\ref{sec:open}).
 
-\section{What this paper does not do}
+\section{Limitations and scope}
 \label{sec:not}
 
 \paragraph{The fixed-point formula is not a closed derivation.}
@@ -1048,8 +1065,8 @@ of a candidate fixed-point formula --- with no numerical
 fitting to $\alpha_{\rm EM}$ --- for the
 fine-structure constant, conditional on three structural
 identifications, whose unique stable solution agrees with
-CODATA at $-0.38$~ppm. The construction involves no numerical
-fitting to $\alpha_{\rm EM}$. We have presented Maxwell-like
+CODATA at $-0.38$~ppm (for the bulk-BFS candidate
+$\varepsilon = 1/(2\pi)$). We have presented Maxwell-like
 dynamics from a compact U(1) oriented sector on the Floquet
 substrate of Paper~III, and a self-consistent Wilson-loop
 back-reaction analogous to Paper~II's Schwarzschild result.
@@ -1146,3 +1163,4 @@ $\ell_{\rm lat}\approx 14\,\ell_P$.
 \bibliography{references}
 
 \end{document}
+                                                                                                                                                                                              

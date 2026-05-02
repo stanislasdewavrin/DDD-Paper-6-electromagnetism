@@ -196,14 +196,14 @@ ax.plot(mus_test1, d_bfs_test1, 'o-', color='blue', ms=8, lw=2,
 ax.plot(mus_test3, d_bfs_test3, 's-', color='green', ms=8, lw=2,
         label='Poisson(μ) → shells {2, 3, 4}')
 ax.axhline(D_EFF, color='red', linestyle='--', lw=2,
-           label=f'Target: $d_{{\\rm eff}} = 3 + 1/(2\\pi) = {D_EFF:.4f}$')
+           label=f'BFS candidate $\\varepsilon = 1/(2\\pi)$ ({D_EFF:.4f})')
 ax.axhline(3.0, color='gray', linestyle=':', alpha=0.6,
            label='Pure cubic dim = 3')
 ax.axvline(1.0, color='black', linestyle=':', alpha=0.4)
 ax.text(1.02, 2.85, r'$\mu = 1$', fontsize=11)
 ax.set_xlabel(r'Mean shortcuts per node $\mu$', fontsize=12)
 ax.set_ylabel(r'$d_{\rm BFS}$ (BFS expansion exponent)', fontsize=12)
-ax.set_title(r'Emergence of $d_{\rm eff} = 3 + 1/(2\pi)$ from statistical small-world',
+ax.set_title(r'Small-world enhancement of BFS dimension',
              fontsize=11)
 ax.legend(loc='lower right', fontsize=10)
 ax.grid(alpha=0.3)
